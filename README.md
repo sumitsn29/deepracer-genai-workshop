@@ -15,7 +15,7 @@ The use of Claude Instant may not be covered by AWS credits as it's an AWS Marke
 
 In order to run this workshop you should have the AWS CLI installed and be [authenticated to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html), or alternatively use [Cloudshell](https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1) in the AWS console.
 
-- run `git clone -b for_cloudshell https://github.com/kenny-king-kong/deepracer-genai-workshop.git`
+- run `git clone https://github.com/kenny-king-kong/deepracer-genai-workshop.git`
 - run `cd deepracer-genai-workshop`
 - run `./initial-workshop-setup.sh <aws_bucket_name_to_create>` # e.g. ./initial-workshop-setup.sh "Hello-World"
 
