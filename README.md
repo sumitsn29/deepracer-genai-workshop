@@ -15,9 +15,9 @@ The use of Claude Instant may not be covered by AWS credits as it's an AWS Marke
 
 In order to run this workshop you should have the AWS CLI installed and be [authenticated to AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html), or alternatively use [Cloudshell](https://us-east-1.console.aws.amazon.com/cloudshell/home?region=us-east-1) in the AWS console.
 
-- run `git clone https://github.com/aws-deepracer-community/deepracer-genai-workshop.git`
+- run `git clone https://github.com/kenny-king-kong/deepracer-genai-workshop.git`
 - run `cd deepracer-genai-workshop`
-- run `./initial-workshop-setup.sh <aws_bucket_name_to_create>`
+- run `./initial-workshop-setup.sh <aws_bucket_name_to_create>` # e.g. ./initial-workshop-setup.sh "Hello-World"
 
 ### Request Service Quota
 
@@ -104,7 +104,7 @@ You may have to wait 24 hours or so for AWS to enact the quota increase.
 
 - Run the following code to download the Jupyter Notebooks, code example and files used in all labs for this workshop.
 
-  `git clone https://github.com/aws-deepracer-community/deepracer-genai-workshop.git`
+  `git clone -b driving-school https://github.com/kenny-king-kong/deepracer-genai-workshop.git`
 
 - Open the file browser to find the downloaded files, and open the deepracer-genai-workshop folder
 
